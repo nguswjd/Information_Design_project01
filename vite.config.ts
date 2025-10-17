@@ -13,6 +13,7 @@ const dirname =
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon
 export default defineConfig({
+  base: "/Information_Design_project01/",
   plugins: [react()],
   resolve: {
     alias: {
